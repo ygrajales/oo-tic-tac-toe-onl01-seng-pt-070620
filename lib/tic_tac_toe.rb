@@ -119,7 +119,7 @@ class TicTacToe
     
     wc_or_not = won?
     
-    if is_a(wc_or_not)
+    if wc_or_not.kind_of
       wc_or_not[0] == "X" ? "X" : "O"
     end
     
