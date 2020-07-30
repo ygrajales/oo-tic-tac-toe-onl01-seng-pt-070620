@@ -117,6 +117,9 @@ class TicTacToe
   
   def winner
     
+    wc_or_not = won?
+    
+  end
   
   
 end
