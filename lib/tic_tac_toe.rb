@@ -119,9 +119,13 @@ class TicTacToe
     
     wc_or_not = won?
     
-    if wc_or_not.is_array
-    
-    binding.pry
+    if is_array(wc_or_not)
+      if wc_or_not[0] == "X"
+        "X"
+      else
+        "O"
+      end
+    end
     
   end
   
