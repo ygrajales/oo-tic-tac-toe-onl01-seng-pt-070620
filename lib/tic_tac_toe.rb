@@ -119,6 +119,8 @@ class TicTacToe
     
     wc_or_not = won?
     
+    if wc_or_not 
+    
     binding.pry
     
   end
