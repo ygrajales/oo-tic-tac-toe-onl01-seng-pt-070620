@@ -136,7 +136,7 @@ class TicTacToe
       turn
     end
 
-    if won?.kind_of(Array) 
+    if won?
       puts "Congratulations!"
     elsif draw?
       puts "Sorry, this was a draw."
