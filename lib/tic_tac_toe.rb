@@ -86,4 +86,9 @@ class TicTacToe
     
   end
   
+  def won?
+    
+    WIN_COMBINATIONS.find do |wc|
+      if @board[wc[0]] == "X" && @board[wc[1]] ==
+  
 end
