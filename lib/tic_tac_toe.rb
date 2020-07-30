@@ -137,7 +137,11 @@ class TicTacToe
       turn_count
     end
 
-    won?.kind_of(Array) ? puts "Congratulations!" : puts "Sorry, this was a draw."
+    if won?.kind_of(Array) 
+      puts "Congratulations!"
+    elsif draw?
+      puts "Sorry, this was a draw."
+    end
     
   end
   
