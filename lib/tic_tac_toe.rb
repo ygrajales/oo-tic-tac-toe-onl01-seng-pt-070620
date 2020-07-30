@@ -132,7 +132,7 @@ class TicTacToe
     
     display_board
     
-    while over == false
+    while over? == false
       turn
     end
 
