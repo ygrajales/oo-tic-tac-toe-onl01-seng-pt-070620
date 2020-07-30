@@ -71,6 +71,19 @@ class TicTacToe
   
   def turn
     
+    puts "Please type a position from 1 to 9."
+    
+    position = gets.chomp
+    
+    index = input_to_index(position)
+    
+    if valid_move?(index)
+      move(index, token)
+      display_board
+    else
+      puts "Invalid number.  Please type a position from 1 to 9."
+    end
+    
   end
       
   
