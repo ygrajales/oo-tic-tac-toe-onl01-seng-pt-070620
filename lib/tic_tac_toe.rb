@@ -128,8 +128,6 @@ class TicTacToe
   
   def play
     
-    puts "Welcome to Tic Tac Toe!"
-    
     display_board
     
     while over? == false
@@ -137,7 +135,7 @@ class TicTacToe
     end
 
     if won?
-      puts "Congratulations!"
+      puts "Congratulations #{winner}"
     elsif draw?
       puts "Sorry, this was a draw."
     end
