@@ -94,7 +94,7 @@ class TicTacToe
       elsif @board[wc[0]] == "O" && @board[wc[1]] == "O" && @board[wc[2]] == "O"
         wc
       else
-        FALSE
+        false
       end
     end
   end
