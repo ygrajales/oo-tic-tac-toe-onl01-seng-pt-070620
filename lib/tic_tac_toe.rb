@@ -71,7 +71,7 @@ class TicTacToe
   
   def turn
     
-    puts "Please type a position from 1 to 9."
+    puts "Please enter a number from 1 to 9:"
     
     position = gets.chomp
     
@@ -127,6 +127,12 @@ class TicTacToe
   
   
   def play
+    
+    puts "Welcome to Tic Tac Toe!"
+    
+    display_board
+    
+    
     
   end
   
