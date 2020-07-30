@@ -134,8 +134,10 @@ class TicTacToe
     
     while turn_count <= 9 do
       turn
-    
-    
+      turn_count
+    end
+
+    won?.kind_of(Array) ? puts "Congratulations!" : puts "Sorry, this was a draw."
     
   end
   
