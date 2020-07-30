@@ -132,9 +132,8 @@ class TicTacToe
     
     display_board
     
-    while turn_count <= 9 do
+    while over == false
       turn
-      turn_count
     end
 
     if won?.kind_of(Array) 
