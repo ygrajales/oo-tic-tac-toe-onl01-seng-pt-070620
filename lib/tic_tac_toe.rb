@@ -132,7 +132,7 @@ class TicTacToe
     
     display_board
     
-    while turn_count <= 9
+    while turn_count <= 9 do
       turn
     
     
