@@ -101,7 +101,7 @@ class TicTacToe
   
   
   def full?
-    
+    @board.each{|space| space != " " ? true}
   end
   
   
