@@ -30,8 +30,8 @@ class TicTacToe
   end
   
   
-  def input_to_index(space)
-    space.to_i - 1 
+  def input_to_index(position)
+    position.to_i - 1 
   end
   
   
