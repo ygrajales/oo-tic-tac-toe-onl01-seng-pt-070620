@@ -120,7 +120,7 @@ class TicTacToe
     wc_or_not = won?
     
     if wc_or_not.kind_of?(Array)
-      wc_or_not[0] == "X" ? "X" : "O"
+      @board[wc_or_not[0]] == "X" ? "X" : "O"
     end
     
   end
