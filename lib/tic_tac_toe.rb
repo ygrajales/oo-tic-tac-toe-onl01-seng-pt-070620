@@ -81,7 +81,7 @@ class TicTacToe
       move(index, current_player)
       display_board
     else
-      puts "Invalid number.  Please type a position from 1 to 9."
+      turn
     end
     
   end
