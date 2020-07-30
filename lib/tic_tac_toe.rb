@@ -84,6 +84,8 @@ class TicTacToe
       turn
     end
     
+    binding.pry
+    
   end
       
   
