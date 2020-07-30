@@ -120,11 +120,7 @@ class TicTacToe
     wc_or_not = won?
     
     if is_array(wc_or_not)
-      if wc_or_not[0] == "X"
-        "X"
-      else
-        "O"
-      end
+      wc_or_not[0] == "X" ? "X" : "O"
     end
     
   end
